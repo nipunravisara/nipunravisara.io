@@ -3,6 +3,7 @@ import LayoutDefault from "./Layout/LayoutDefault";
 import About from "./Views/About";
 import Experience from "./Views/Experience";
 import Work from "./Views/Work";
+import Contact from "./Views/Contact";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <About />
       <Experience />
       <Work />
+      <Contact />
     </LayoutDefault>
   );
 }
