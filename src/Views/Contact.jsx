@@ -20,27 +20,27 @@ const Contact = () => {
         </div>
         <div className="pt-6 md:pt-20">
           <div className="flex flex-row justify-start">
-            <div className="inline-table p-5 w-1 h-1 hover:bg-green-400">
+            <div className="inline-table p-6 md:p-10 w-2 h-2 hover:bg-green-400">
               <Email className="w-6 h-6 md:w-10 md:h-10" />
             </div>
-            <div className="inline-table p-5 w-0.5 h-0.5 hover:bg-gray-400">
+            <div className="inline-table p-6 md:p-10 w-2 h-2 hover:bg-gray-400">
               <Github className="w-6 h-6 md:w-10 md:h-10" />
             </div>
-            <div className="inline-table p-5 w-0.5 h-0.5 hover:bg-indigo-500">
+            <div className="inline-table p-6 md:p-10 w-2 h-2 hover:bg-indigo-500">
               <Linkedin className="w-6 h-6 md:w-10 md:h-10" />
             </div>
-            <div className="inline-table p-5 w-0.5 h-0.5 hover:bg-blue-500">
+            <div className="inline-table p-6 md:p-10 w-2 h-2 hover:bg-blue-500">
               <Behance className="w-6 h-6 md:w-10 md:h-10" />
             </div>
           </div>
           <div className="flex flex-row justify-end">
-            <div className="inline-table p-5 w-0.5 h-0.5 hover:bg-blue-300">
+            <div className="inline-table p-6 md:p-10 w-2 h-2 hover:bg-blue-300">
               <Twitter className="w-6 h-6 md:w-10 md:h-10" />
             </div>
-            <div className="inline-table p-5 w-0.5 h-0.5 hover:bg-red-400">
+            <div className="inline-table p-6 md:p-10 w-2 h-2 hover:bg-red-400">
               <Instagram className="w-6 h-6 md:w-10 md:h-10" />
             </div>
-            <div className="inline-table p-5 w-0.5 h-0.5 hover:bg-blue-600">
+            <div className="inline-table p-6 md:p-10 w-2 h-2 hover:bg-blue-600">
               <Facebook className="w-6 h-6 md:w-10 md:h-10" />
             </div>
           </div>
