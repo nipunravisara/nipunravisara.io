@@ -3,7 +3,7 @@ import React from "react";
 const PortfolioCard = ({ name, description, sourceType, link }) => {
   return (
     <div className="mt-7 md:mt-0">
-      <div className="flex items-center justify-between md:justify-start flex-row">
+      <div className="flex items-center md:justify-start flex-row">
         <p className="leading-relaxed text-sm md:text-lg font-bold">{name}</p>
         <a
           href={link}
