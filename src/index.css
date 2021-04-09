@@ -4,7 +4,25 @@
 
 body {
   background-color: #fff;
-  background-image: linear-gradient(#0d0d0d 4px, #78787800 4px),
-    linear-gradient(to right, #0b0b0b 4px, #000 4px);
+  background-image: linear-gradient(#121212 2px, #78787800 2px),
+    linear-gradient(to right, #121212 2px, #000 2px);
   background-size: 1000px 1000px;
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    background-color: #fff;
+    background-image: linear-gradient(#121212 2px, #78787800 2px),
+      linear-gradient(to right, #121212 2px, #000 2px);
+    background-size: 400px 400px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  body {
+    background-color: #fff;
+    background-image: linear-gradient(#121212 2px, #78787800 2px),
+      linear-gradient(to right, #121212 2px, #000 2px);
+    background-size: 240px 240px;
+  }
 }
