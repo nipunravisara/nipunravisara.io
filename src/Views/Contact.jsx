@@ -19,29 +19,29 @@ const Contact = () => {
           <h1 className="text-6xl md:text-9xl font-black">Talk</h1>
         </div>
         <div className="pt-6 md:pt-20">
-          <div className="flex flex-row">
-            <div className="inline-table p-10 w-1 h-1 hover:bg-green-400">
-              <Email />
+          <div className="flex flex-row justify-start">
+            <div className="inline-table p-5 w-1 h-1 hover:bg-green-400">
+              <Email className="w-5 h-5 md:w-10 md:h-10" />
             </div>
-            <div className="inline-table p-10 w-1 h-1 hover:bg-gray-400">
-              <Github />
+            <div className="inline-table p-5 w-0.5 h-0.5 hover:bg-gray-400">
+              <Github className="w-5 h-5 md:w-10 md:h-10" />
             </div>
-            <div className="inline-table p-10 w-1 h-1 hover:bg-indigo-500">
-              <Linkedin />
+            <div className="inline-table p-5 w-0.5 h-0.5 hover:bg-indigo-500">
+              <Linkedin className="w-5 h-5 md:w-10 md:h-10" />
             </div>
-            <div className="inline-table p-10 w-1 h-1 hover:bg-blue-500">
-              <Behance />
+            <div className="inline-table p-5 w-0.5 h-0.5 hover:bg-blue-500">
+              <Behance className="w-5 h-5 md:w-10 md:h-10" />
             </div>
           </div>
-          <div className="flex flex-row-reverse">
-            <div className="inline-table p-10 w-1 h-1 hover:bg-blue-300">
-              <Twitter />
+          <div className="flex flex-row justify-end">
+            <div className="inline-table p-5 w-0.5 h-0.5 hover:bg-blue-300">
+              <Twitter className="w-5 h-5 md:w-10 md:h-10" />
             </div>
-            <div className="inline-table p-10 w-1 h-1 hover:bg-red-400">
-              <Instagram />
+            <div className="inline-table p-5 w-0.5 h-0.5 hover:bg-red-400">
+              <Instagram className="w-5 h-5 md:w-10 md:h-10" />
             </div>
-            <div className="inline-table p-10 w-1 h-1 hover:bg-blue-600">
-              <Facebook />
+            <div className="inline-table p-5 w-0.5 h-0.5 hover:bg-blue-600">
+              <Facebook className="w-5 h-5 md:w-10 md:h-10" />
             </div>
           </div>
         </div>
