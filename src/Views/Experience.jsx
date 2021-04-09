@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <>
       <div className="pt-28 md:pt-48">
-        <p className="text-base uppercase tracking-widest text-gray-400 mb-2 md:mb-10">
+        <p className="text-base uppercase tracking-widest text-gray-400 mb-5 md:mb-10">
           Experience
         </p>
         <div className="ml-1 md:ml-8">
