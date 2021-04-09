@@ -15,7 +15,7 @@ const Work = () => {
         <div className="pt-6 md:pt-20">
           <div className="grid grid-cols-1 md:grid-cols-1 grid-rows-1 md:grid-rows-2">
             <PortfolioCard
-              name="react-native-calendarview-datepicker"
+              name="Calendarview date-picker"
               description="Simple and hightly custamizable calendar type date picker for react native."
               sourceType="npm"
               link="https://github.com/nipunravisara/react-native-calendarview-datepicker"
@@ -23,7 +23,7 @@ const Work = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 md:grid-rows-2">
             <PortfolioCard
-              name="encipher"
+              name="Encipher"
               description="Encipher is a simple File encryption commad-line tool written in python."
               sourceType="github"
               link="https://github.com/nipunravisara/encipher"

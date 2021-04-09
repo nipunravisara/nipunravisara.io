@@ -13,7 +13,7 @@ const Experience = () => {
           <h1 className="text-6xl md:text-9xl font-black">Stack</h1>
         </div>
         <div className="pt-6 md:pt-20">
-          <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2">
+          <div className="grid grid-cols-2 grid-rows-2">
             <ExperienceCard
               designation="Full-Stack Developer"
               company="Emmito (Pvt) Ltd"
@@ -27,7 +27,7 @@ const Experience = () => {
               end="Nov 2020"
             />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2">
+          <div className="grid grid-cols-2 grid-rows-2">
             <ExperienceCard
               designation="Front-End Developer"
               company="LeafyCode (Pvt) Ltd"
