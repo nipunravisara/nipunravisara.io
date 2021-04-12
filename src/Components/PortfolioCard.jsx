@@ -1,10 +1,19 @@
 import React from "react";
+import LinkIcon from "../assets/Link";
 
 const PortfolioCard = ({ name, description, sourceType, link }) => {
   return (
     <div className="mt-7 md:mt-0">
       <div className="flex items-center md:justify-start flex-row">
-        <p className="leading-relaxed text-sm md:text-lg font-bold">{name}</p>
+        <LinkIcon />
+        <a
+          href={link}
+          target="_blank"
+          rel="noreferrer"
+          className="leading-relaxed text-sm md:text-lg font-bold mt-1"
+        >
+          &nbsp;&nbsp;{name}
+        </a>
         <a
           href={link}
           target="_blank"
