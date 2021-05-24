@@ -6,6 +6,15 @@ const Header = () => (
     <center>
       <Logo />
     </center>
+    <div className="fixed top-10 right-10 bg-green-400 px-4 py-2 pt-3 rounded-md">
+      <a
+        className="text-black"
+        href="src/assets/Nipun-ravisara-resume.pdf"
+        download
+      >
+        Download Resume
+      </a>
+    </div>
   </div>
 );
 
