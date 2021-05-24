@@ -1,5 +1,5 @@
 import React from "react";
-import FileSaver from "file-saver";
+import Pd from "../assets/resume.pdf";
 import Logo from "../assets/logo";
 
 const Header = () => (
@@ -8,16 +8,9 @@ const Header = () => (
       <Logo />
     </center>
     <div className="fixed top-10 right-10 bg-green-400 px-4 py-2 pt-3 rounded-md">
-      <button
-        type="button"
-        className="text-black"
-        onClick={() =>
-          FileSaver.saveAs("../assets/resume.pdf", "nipun-ravisara-resume.pdf")
-        }
-        // download
-      >
+      <a className="text-black" href={Pd} target="_blank" rel="noreferrer">
         Resume
-      </button>
+      </a>
     </div>
   </div>
 );
