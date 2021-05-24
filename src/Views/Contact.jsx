@@ -18,29 +18,65 @@ const Contact = () => {
         content={
           <>
             <div className="flex flex-row justify-start mb-5">
-              <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-green-400">
-                <Email className="w-6 h-6 md:w-10 md:h-10" />
-              </div>
-              <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-gray-400">
-                <Github className="w-6 h-6 md:w-10 md:h-10" />
-              </div>
-              <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-indigo-500">
-                <Linkedin className="w-6 h-6 md:w-10 md:h-10" />
-              </div>
-              <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-blue-500">
-                <Behance className="w-6 h-6 md:w-10 md:h-10" />
-              </div>
+              <a
+                href="mailto: ravisara.dev@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-green-400">
+                  <Email className="w-6 h-6 md:w-10 md:h-10" />
+                </div>
+              </a>
+              <a
+                href="https://github.com/nipunravisara"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-gray-400">
+                  <Github className="w-6 h-6 md:w-10 md:h-10" />
+                </div>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/nipunravisara/?originalSubdomain=lk"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-indigo-500">
+                  <Linkedin className="w-6 h-6 md:w-10 md:h-10" />
+                </div>
+              </a>
+              <a
+                href="https://www.behance.net/Nipun_Ravisara"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-blue-500">
+                  <Behance className="w-6 h-6 md:w-10 md:h-10" />
+                </div>
+              </a>
             </div>
             <div className="flex flex-row justify-end">
-              <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-blue-300">
-                <Twitter className="w-6 h-6 md:w-10 md:h-10" />
-              </div>
-              <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-red-400">
-                <Instagram className="w-6 h-6 md:w-10 md:h-10" />
-              </div>
-              <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-blue-600">
+              <a
+                href="https://twitter.com/nipunravisara"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-blue-300">
+                  <Twitter className="w-6 h-6 md:w-10 md:h-10" />
+                </div>
+              </a>
+              <a
+                href="https://www.instagram.com/nipunravisara/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-red-400">
+                  <Instagram className="w-6 h-6 md:w-10 md:h-10" />
+                </div>
+              </a>
+              {/* <div className="inline-table p-4 md:p-10 w-2 h-2 hover:bg-blue-600">
                 <Facebook className="w-6 h-6 md:w-10 md:h-10" />
-              </div>
+              </div> */}
             </div>
           </>
         }
