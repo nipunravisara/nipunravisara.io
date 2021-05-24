@@ -5,7 +5,7 @@ import Linkedin from "../assets/Linkedin";
 import Behance from "../assets/Behance";
 import Twitter from "../assets/Twitter";
 import Instagram from "../assets/Instagram";
-import Facebook from "../assets/Facebook";
+// import Facebook from "../assets/Facebook";
 import SectionLayout from "../Layout/SectionLayout";
 
 const Contact = () => {
