@@ -12,7 +12,7 @@ const Header = () => (
         href="src/assets/Nipun-ravisara-resume.pdf"
         download
       >
-        Download Resume
+        Resume
       </a>
     </div>
   </div>
