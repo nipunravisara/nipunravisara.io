@@ -1,4 +1,5 @@
 import React from "react";
+import FileSaver from "file-saver";
 import Logo from "../assets/logo";
 
 const Header = () => (
@@ -7,13 +8,16 @@ const Header = () => (
       <Logo />
     </center>
     <div className="fixed top-10 right-10 bg-green-400 px-4 py-2 pt-3 rounded-md">
-      <a
+      <button
+        type="button"
         className="text-black"
-        href="src/assets/Nipun-ravisara-resume.pdf"
-        download
+        onClick={() =>
+          FileSaver.saveAs("../assets/resume.pdf", "nipun-ravisara-resume.pdf")
+        }
+        // download
       >
         Resume
-      </a>
+      </button>
     </div>
   </div>
 );
