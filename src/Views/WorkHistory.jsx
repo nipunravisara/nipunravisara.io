@@ -7,7 +7,7 @@ const WorkHistory = () => {
     <>
       <SectionLayout
         title="Worked History"
-        subTitleOne="2"
+        subTitleOne="3"
         subTitleTwo="Years"
         content={
           <>

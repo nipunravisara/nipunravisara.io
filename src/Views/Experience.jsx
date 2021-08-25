@@ -19,22 +19,24 @@ const Experience = () => {
               </span>
               also gained pretty good experience in Mobile Application
               Development using
-              <span className="text-2xl font-bold"> React-Native</span> and
-              <span className="text-2xl font-bold">&nbsp;Flutter</span> over 3
+              <span className="text-2xl font-bold"> React-Native</span> over 2
               years.
             </p>
             <div className="flex flex-row flex-wrap mt-5 ">
               <p className="leading-relaxed text-sm md:text-lg font-bold mr-3 mb-2 pl-2 pr-2 pt-0.5 w-min border rounded">
+                NodeJS
+              </p>
+              <p className="leading-relaxed text-sm md:text-lg font-bold mr-3 mb-2 pl-2 pr-2 pt-0.5 w-min border rounded">
                 GraphQL
               </p>
               <p className="leading-relaxed text-sm md:text-lg font-bold mr-3 mb-2 pl-2 pr-2 pt-0.5 w-min border rounded">
+                ReactJS
+              </p>
+              <p className="leading-relaxed text-sm md:text-lg font-bold mr-3 mb-2 pl-2 pr-2 pt-0.5 w-min border rounded">
+                MongoDB
+              </p>
+              <p className="leading-relaxed text-sm md:text-lg font-bold mr-3 mb-2 pl-2 pr-2 pt-0.5 w-min border rounded">
                 NextJS
-              </p>
-              <p className="leading-relaxed text-sm md:text-lg font-bold mr-3 mb-2 pl-2 pr-2 pt-0.5 w-min border rounded">
-                PostgreSQL
-              </p>
-              <p className="leading-relaxed text-sm md:text-lg font-bold mr-3 mb-2 pl-2 pr-2 pt-0.5 w-min border rounded">
-                Python
               </p>
               <p className="leading-relaxed text-sm md:text-lg font-bold mr-3 mb-2 pl-2 pr-2 pt-0.5 w-min border rounded">
                 Tailwind
