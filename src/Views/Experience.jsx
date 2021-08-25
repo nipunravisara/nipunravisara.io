@@ -20,7 +20,7 @@ const Experience = () => {
               also gained pretty good experience in Mobile Application
               Development using
               <span className="text-2xl font-bold"> React-Native</span> and
-              <span className="text-2xl font-bold">&nbsp;Flutter</span> over 2
+              <span className="text-2xl font-bold">&nbsp;Flutter</span> over 3
               years.
             </p>
             <div className="flex flex-row flex-wrap mt-5 ">
