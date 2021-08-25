@@ -1,5 +1,4 @@
 import React from "react";
-import PDF from "../assets/nipun-ravisara.pdf";
 import Logo from "../assets/logo";
 
 const Header = () => (
@@ -7,11 +6,11 @@ const Header = () => (
     <center>
       <Logo />
     </center>
-    <div className="fixed top-10 right-10 px-4 py-1 pt-2 border rounded">
+    {/* <div className="fixed top-10 right-10 px-4 py-1 pt-2 border rounded">
       <a className="text-white" href={PDF} target="_blank" rel="noreferrer">
         Resume
       </a>
-    </div>
+    </div> */}
   </div>
 );
 

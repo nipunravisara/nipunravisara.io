@@ -11,7 +11,7 @@ const Experience = () => {
         content={
           <>
             <p className="leading-relaxed text-sm md:text-lg">
-              Familiar with{" "}
+              Familiar with
               <span className="text-2xl font-bold">JavaScript</span> related
               technologies. Mostly I have been working on
               <span className="text-2xl font-bold">

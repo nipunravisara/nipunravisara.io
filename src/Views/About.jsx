@@ -10,12 +10,13 @@ const About = () => {
       content={
         <>
           <p className="leading-relaxed text-sm md:text-lg">
-            A Senior Software Enginere based in Colombo, Sri Lanka who begins the
-            journey as a freelance designer nearly 3 years ago and inspired by
-            the community, Most of the time I used to design and build digital
-            products, APIs, UIs while maintaining good and clean codebase. Additionaly
-            passionate about mobile development and working on improving my
-            experience as a Senior Software Enginere Full Stack.
+            A Senior Software Enginere based in Colombo, Sri Lanka who begins
+            the journey as a freelance designer nearly 3 years ago and inspired
+            by the community, Most of the time I used to design and build
+            digital products, APIs, UIs while maintaining good and clean
+            codebase. Additionaly passionate about mobile development and
+            working on improving my experience as a Senior Software Enginere
+            Full Stack.
           </p>
         </>
       }

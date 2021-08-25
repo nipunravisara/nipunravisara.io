@@ -13,7 +13,7 @@ const WorkHistory = () => {
           <>
             <div className="grid grid-cols-2 grid-rows-2">
               <ExperienceCard
-                designation="Full-Stack Developer"
+                designation="Senior Software Engineer Full-Stack"
                 company="Emmito (Pvt) Ltd"
                 start="Nov 2020"
                 end="Present"

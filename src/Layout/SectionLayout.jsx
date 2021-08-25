@@ -3,7 +3,7 @@ import React from "react";
 const SectionLayout = ({ title, subTitleOne, subTitleTwo, content }) => {
   return (
     <>
-      <div className="pt-28 md:pt-48">
+      <div className="pt-28 md:pt-24">
         <p className="text-base uppercase tracking-widest text-gray-400 mb-5 md:mb-10">
           {title}
         </p>
